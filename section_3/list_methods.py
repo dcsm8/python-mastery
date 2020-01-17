@@ -11,8 +11,26 @@ basket.insert(6, 200)
 basket.extend([300, 400])
 
 # removing
-basket.pop()
+last_item = basket.pop()
+
+print(last_item)
 
 basket.remove(100)
 
+print(basket)
+
+print(basket.count(200))
+
+print(200 in basket)
+
+
+# sort
+
+print(sorted(basket))
+
+basket.sort()
+print(basket)
+
+# reverse
+basket.reverse()
 print(basket)
